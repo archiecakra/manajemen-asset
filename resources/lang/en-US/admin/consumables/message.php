@@ -2,35 +2,35 @@
 
 return array(
 
-    'does_not_exist' => 'Consumable does not exist.',
+    'does_not_exist' => 'Barang Habis Pakai tidak terdaftar.',
 
     'create' => array(
-        'error'   => 'Consumable was not created, please try again.',
-        'success' => 'Consumable created successfully.'
+        'error'   => 'Barang Habis Pakai tidak berhasil dibuat, silahkan mencoba lagi.',
+        'success' => 'Barang Habis Pakai telah berhasil dibuat.'
     ),
 
     'update' => array(
-        'error'   => 'Consumable was not updated, please try again',
-        'success' => 'Consumable updated successfully.'
+        'error'   => 'Barang Habis Pakai tidak berhasil diperbarui, silahkan mencoba lagi',
+        'success' => 'Barang Habis Pakai telah berhasil diperbarui.'
     ),
 
     'delete' => array(
-        'confirm'   => 'Are you sure you wish to delete this consumable?',
-        'error'   => 'There was an issue deleting the consumable. Please try again.',
-        'success' => 'The consumable was deleted successfully.'
+        'confirm'   => 'Apakah Anda yakin untuk menghapus Barang Habis Pakai ini?',
+        'error'   => 'Terdapat kesalahan pada saat penghapusan Barang Habis Pakai ini. Silahkan coba kembali.',
+        'success' => 'Barang Habis Pakai telah berhasil dihapus.'
     ),
 
      'checkout' => array(
-        'error'   		=> 'Consumable was not checked out, please try again',
-        'success' 		=> 'Consumable checked out successfully.',
-        'user_does_not_exist' => 'That user is invalid. Please try again.',
+        'error'   		=> 'Barang Habis Pakai belum tertanda keluar, silahkan mencoba lagi',
+        'success' 		=> 'Barang Habis Pakai telah sukses tertanda keluar.',
+        'user_does_not_exist' => 'Pengguna tidak terdaftar. Silahkan coba kembali.',
          'unavailable'      => 'There are not enough consumables for this checkout. Please check the quantity left. ',
     ),
 
     'checkin' => array(
-        'error'   		=> 'Consumable was not checked in, please try again',
-        'success' 		=> 'Consumable checked in successfully.',
-        'user_does_not_exist' => 'That user is invalid. Please try again.'
+        'error'   		=> 'Barang Habis Pakai belum tertanda masuk, silahkan mencoba lagi',
+        'success' 		=> 'Barang Habis Pakai telah sukses tertanda masuk.',
+        'user_does_not_exist' => 'Pengguna tidak terdaftar. Silahkan coba kembali.'
     )
 
 

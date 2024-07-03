@@ -2,61 +2,61 @@
 
 return [
 
-    'undeployable' 		=> '<strong>Warning: </strong> This asset has been marked as currently undeployable.
-                        If this status has changed, please update the asset status.',
-    'does_not_exist' 	=> 'Asset does not exist.',
+    'undeployable' 		=> '<strong>Peringatan: </strong> Aset ini telah di tandai sebagai aset yang tak dapat digunakan.
+                        Jika status ini telah berubah, silahkan perbarui status aset.',
+    'does_not_exist' 	=> 'Aset tidak ada.',
     'does_not_exist_var'=> 'Asset with tag :asset_tag not found.',
     'no_tag' 	        => 'No asset tag provided.',
-    'does_not_exist_or_not_requestable' => 'That asset does not exist or is not requestable.',
-    'assoc_users'	 	=> 'This asset is currently checked out to a user and cannot be deleted. Please check the asset in first, and then try deleting again. ',
+    'does_not_exist_or_not_requestable' => 'Aset tersebut tidak ada atau tidak dapat di minta.',
+    'assoc_users'	 	=> 'Aset ini sudah diberikan kepada pengguna dan tidak dapat di hapus. Silahkan cek aset terlebih dahulu kemudian coba hapus kembali. ',
     'warning_audit_date_mismatch' 	=> 'This asset\'s next audit date (:next_audit_date) is before the last audit date (:last_audit_date). Please update the next audit date.',
 
     'create' => [
-        'error'   		=> 'Asset was not created, please try again. :(',
-        'success' 		=> 'Asset created successfully. :)',
+        'error'   		=> 'Aset gagal di buat, silahkan coba kembali',
+        'success' 		=> 'Sukses membuat aset',
         'success_linked' => 'Asset with tag :tag was created successfully. <strong><a href=":link" style="color: white;">Click here to view</a></strong>.',
     ],
 
     'update' => [
-        'error'   			=> 'Asset was not updated, please try again',
-        'success' 			=> 'Asset updated successfully.',
+        'error'   			=> 'Gagal perbarui aset, silahkan coba kembali',
+        'success' 			=> 'Sukses perbarui aset.',
         'encrypted_warning' => 'Asset updated successfully, but encrypted custom fields were not due to permissions',
-        'nothing_updated'	=>  'No fields were selected, so nothing was updated.',
-        'no_assets_selected'  =>  'No assets were selected, so nothing was updated.',
+        'nothing_updated'	=>  'Tidak ada kolom yang dipilih, jadi tidak ada yang diperbaharui.',
+        'no_assets_selected'  =>  'Tidak ada aset yang dipilih, jadi tidak ada yang diperbarui.',
         'assets_do_not_exist_or_are_invalid' => 'Selected assets cannot be updated.',
     ],
 
     'restore' => [
-        'error'   		=> 'Asset was not restored, please try again',
-        'success' 		=> 'Asset restored successfully.',
-        'bulk_success' 		=> 'Asset restored successfully.',
-        'nothing_updated'   => 'No assets were selected, so nothing was restored.', 
+        'error'   		=> 'Aset gagal dikembalikan, silahkan coba lagi',
+        'success' 		=> 'Aset berhasil dikembalikan.',
+        'bulk_success' 		=> 'Aset berhasil dikembalikan.',
+        'nothing_updated'   => 'Tidak ada aset yang dipilih, jadi tidak ada yang dipulihkan.', 
     ],
 
     'audit' => [
         'error'   		=> 'Asset audit unsuccessful: :error ',
-        'success' 		=> 'Asset audit successfully logged.',
+        'success' 		=> 'Audit aset berhasil login.',
     ],
 
 
     'deletefile' => [
-        'error'   => 'File not deleted. Please try again.',
-        'success' => 'File successfully deleted.',
+        'error'   => 'Berkas tidak terhapus. Silahkan coba kembali.',
+        'success' => 'Berkas berhasil dihapus.',
     ],
 
     'upload' => [
-        'error'   => 'File(s) not uploaded. Please try again.',
-        'success' => 'File(s) successfully uploaded.',
-        'nofiles' => 'You did not select any files for upload, or the file you are trying to upload is too large',
-        'invalidfiles' => 'One or more of your files is too large or is a filetype that is not allowed. Allowed filetypes are png, gif, jpg, doc, docx, pdf, and txt.',
+        'error'   => 'Berkas gagal diunggah. Silahkan coba kembali.',
+        'success' => 'Berkas berhasil diunggah.',
+        'nofiles' => 'Anda belum memilih berkas untuk diunggah, atau berkas yang akan diunggah terlalu besar',
+        'invalidfiles' => 'Satu atau beberapa berkas Anda terlalu besar atau termasuk tipe berkas yang tidak diizinkan. Berkas yang diperbolehkan adalah png, gif, jpg, doc, docx, pdf, dan txt.',
     ],
 
     'import' => [
-        'error'                 => 'Some items did not import correctly.',
-        'errorDetail'           => 'The following Items were not imported because of errors.',
-        'success'               => 'Your file has been imported',
-        'file_delete_success'   => 'Your file has been been successfully deleted',
-        'file_delete_error'      => 'The file was unable to be deleted',
+        'error'                 => 'Beberapa item tidak terimpor dengan benar.',
+        'errorDetail'           => 'Item berikut tidak terimpor karena ada kesalahan.',
+        'success'               => 'Berkas Anda berhasil terimpor',
+        'file_delete_success'   => 'File anda telah berhasil dihapus',
+        'file_delete_error'      => 'File tidak bisa dihapus',
         'file_missing' => 'The file selected is missing',
         'header_row_has_malformed_characters' => 'One or more attributes in the header row contain malformed UTF-8 characters',
         'content_row_has_malformed_characters' => 'One or more attributes in the first row of content contain malformed UTF-8 characters',
@@ -64,32 +64,32 @@ return [
 
 
     'delete' => [
-        'confirm'   	=> 'Are you sure you wish to delete this asset?',
-        'error'   		=> 'There was an issue deleting the asset. Please try again.',
-        'nothing_updated'   => 'No assets were selected, so nothing was deleted.',
-        'success' 		=> 'The asset was deleted successfully.',
+        'confirm'   	=> 'Apakah Anda yakin untuk menghapus aset ini?',
+        'error'   		=> 'Terdapat kesalahan pada saat penghapusan aset. Silahkan coba kembali.',
+        'nothing_updated'   => 'Tidak ada aset yang dipilih, jadi tidak ada yang dihapus.',
+        'success' 		=> 'Aset sukses terhapus.',
     ],
 
     'checkout' => [
-        'error'   		=> 'Asset was not checked out, please try again',
-        'success' 		=> 'Asset checked out successfully.',
-        'user_does_not_exist' => 'That user is invalid. Please try again.',
-        'not_available' => 'That asset is not available for checkout!',
-        'no_assets_selected' => 'You must select at least one asset from the list',
+        'error'   		=> 'Aset gagal di berikan, silahkan coba kembali',
+        'success' 		=> 'Sukses memberikan aset.',
+        'user_does_not_exist' => 'Pengguna tersebut tidak terdaftar. Silahkan coba kembali.',
+        'not_available' => 'Aset tersebut tidak tersedia untuk checkout!',
+        'no_assets_selected' => 'Anda harus memilih setidaknya satu aset dari daftar',
     ],
 
     'checkin' => [
-        'error'   		=> 'Asset was not checked in, please try again',
-        'success' 		=> 'Asset checked in successfully.',
-        'user_does_not_exist' => 'That user is invalid. Please try again.',
-        'already_checked_in'  => 'That asset is already checked in.',
+        'error'   		=> 'Aset gagal di terima, silahkan coba kembali',
+        'success' 		=> 'Sukses menerima aset.',
+        'user_does_not_exist' => 'Pengguna tersebut tidak terdaftar. Silahkan coba kembali.',
+        'already_checked_in'  => 'Aset tersebut telah di terima.',
 
     ],
 
     'requests' => [
-        'error'   		=> 'Asset was not requested, please try again',
-        'success' 		=> 'Asset requested successfully.',
-        'canceled'      => 'Checkout request successfully canceled',
+        'error'   		=> 'Aset gagal di minta, silahkan coba kembali',
+        'success' 		=> 'Sukses meminta aset.',
+        'canceled'      => 'Permintaan pemeriksaan berhasil dibatalkan',
     ],
 
 ];

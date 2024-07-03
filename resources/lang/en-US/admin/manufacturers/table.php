@@ -1,16 +1,16 @@
 <?php
 
 return array(
-    'about_manufacturers_title'    => 'About manufacturers',
-    'about_manufacturers_text'  => 'Manufacturers are the companies that create your assets. You can store important support contact information about them here, which will be displayed on your asset detail pages.',
-    'asset_manufacturers'	=> 'Asset Manufacturers',
-    'create'				=> 'Create Manufacturer',
+    'about_manufacturers_title'    => 'Tentang Manufaktur',
+    'about_manufacturers_text'  => 'Pabrikan adalah perusahaan yang menciptakan aset Anda. Anda dapat menyimpan informasi kontak pendukung penting tentang mereka di sini, yang akan ditampilkan di halaman detail aset Anda.',
+    'asset_manufacturers'	=> 'Merek Aset',
+    'create'				=> 'Masukan Merek',
     'id'   					=> 'ID',
-    'name'      			=> 'Name',
-    'support_email'   		=> 'Support Email',
-    'support_phone'   		=> 'Support Phone',
-    'support_url'   		=> 'Support URL',
+    'name'      			=> 'Nama',
+    'support_email'   		=> 'Dukungan Email',
+    'support_phone'   		=> 'Dukungan Telp',
+    'support_url'   		=> 'URL Dukungan',
     'warranty_lookup_url'   => 'Warranty Lookup URL',
-    'update'				=> 'Update Manufacturer',
+    'update'				=> 'Perbarui Merek',
 
 );

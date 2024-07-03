@@ -1,16 +1,16 @@
 <?php
 
     return [
-        'asset_maintenances' => 'Asset Maintenances',
-        'edit'               => 'Edit Asset Maintenance',
-        'delete'             => 'Delete Asset Maintenance',
-        'view'               => 'View Asset Maintenance Details',
-        'repair'             => 'Repair',
-        'maintenance'        => 'Maintenance',
-        'upgrade'            => 'Upgrade',
-        'calibration'        => 'Calibration',
-        'software_support'   => 'Software Support',
-        'hardware_support'   => 'Hardware Support',
-        'configuration_change'   => 'Configuration Change',
-        'pat_test'           => 'PAT Test',
+        'asset_maintenances' => 'Pemeliharaan Aset',
+        'edit'               => 'Merubah Pemeliharaan Aset',
+        'delete'             => 'Menghapus Pemeliharan Aset',
+        'view'               => 'Rincian Pemeliharaan Aset',
+        'repair'             => 'Perbaikan',
+        'maintenance'        => 'Pemeliharaan',
+        'upgrade'            => 'Peningkatan',
+        'calibration'        => 'Kalibrasi',
+        'software_support'   => 'Dukungan Perangkat Lunak',
+        'hardware_support'   => 'Dukungan Perangkat Keras',
+        'configuration_change'   => 'Perubahan Konfigurasi',
+        'pat_test'           => 'Ujicoba PAT',
     ];

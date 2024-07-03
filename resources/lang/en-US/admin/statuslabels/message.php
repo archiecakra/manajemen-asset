@@ -2,31 +2,31 @@
 
 return [
 
-    'does_not_exist' => 'Status Label does not exist.',
+    'does_not_exist' => 'Label status tidak ada.',
     'deleted_label' => 'Deleted Status Label',
-    'assoc_assets'	 => 'This Status Label is currently associated with at least one Asset and cannot be deleted. Please update your assets to no longer reference this status and try again. ',
+    'assoc_assets'	 => 'Saat ini label status tersebut terhubung dengan 1 aset dan tidak dapat di hapus. Silahkan perbarui aset anda sehingga tidak terhubung dan kemudian coba kembali. ',
 
     'create' => [
-        'error'   => 'Status Label was not created, please try again.',
-        'success' => 'Status Label created successfully.',
+        'error'   => 'Label status gagal di buat, silahkan coba lagi.',
+        'success' => 'Sukses membuat status label.',
     ],
 
     'update' => [
-        'error'   => 'Status Label was not updated, please try again',
-        'success' => 'Status Label updated successfully.',
+        'error'   => 'Gagal perbarui label status, silahkan coba kembali',
+        'success' => 'Sukses perbarui label status.',
     ],
 
     'delete' => [
-        'confirm'   => 'Are you sure you wish to delete this Status Label?',
-        'error'   => 'There was an issue deleting the Status Label. Please try again.',
-        'success' => 'The Status Label was deleted successfully.',
+        'confirm'   => 'Anda yakin untuk menghapus model label status ini?',
+        'error'   => 'Terdapat kesalahan pada saat penghapusan label status ini. Silahkan coba kembali.',
+        'success' => 'Sukses menghapus label status.',
     ],
 
     'help' => [
-        'undeployable'   => 'These assets cannot be assigned to anyone.',
-        'deployable'   => 'These assets can be checked out. Once they are assigned, they will assume a meta status of <i class="fas fa-circle text-blue"></i> <strong>Deployed</strong>.',
-        'archived'   => 'These assets cannot be checked out, and will only show up in the Archived view. This is useful for retaining information about assets for budgeting/historic purposes but keeping them out of the day-to-day asset list.',
-        'pending'   => 'These assets can not yet be assigned to anyone, often used for items that are out for repair, but are expected to return to circulation.',
+        'undeployable'   => 'Aset ini tidak dapat diberikan kepada siapapun.',
+        'deployable'   => 'Aset ini dapat dipakai. Setelah ditetapkan, simbol status akan berubah menjadi <i class="fas fa-circle text-blue"></i> <strong>Dipakai</strong>.',
+        'archived'   => 'Aset ini tidak dapat diperiksa, dan hanya akan muncul di tampilan Arsip. Ini berguna untuk menyimpan informasi tentang aset untuk tujuan anggaran / sejarah namun menjauhkan mereka dari daftar aset sehari-hari.',
+        'pending'   => 'Aset ini belum bisa diberikan kepada siapapun, sering digunakan untuk barang yang sedang diperbaiki, namun diperkirakan akan kembali beredar.',
     ],
 
 ];

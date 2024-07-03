@@ -3,9 +3,9 @@
 return [
 
     'id'      => 'ID',
-    'months'   => 'Months',
-    'term'   => 'Term',
-    'title'      => 'Name ',
-    'depreciation_min' => 'Floor Value',
+    'months'   => 'Bulan',
+    'term'   => 'Syarat',
+    'title'      => 'Nama ',
+    'depreciation_min' => 'Nilai Penyusutan',
 
 ];

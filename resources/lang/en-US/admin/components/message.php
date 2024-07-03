@@ -2,35 +2,35 @@
 
 return array(
 
-    'does_not_exist' => 'Component does not exist.',
+    'does_not_exist' => 'Tidak ada komponen.',
 
     'create' => array(
-        'error'   => 'Component was not created, please try again.',
-        'success' => 'Component created successfully.'
+        'error'   => 'Komponen belum terbuat, silahkan coba kembali.',
+        'success' => 'Komponen telah berhasil di buat.'
     ),
 
     'update' => array(
-        'error'   => 'Component was not updated, please try again',
-        'success' => 'Component updated successfully.'
+        'error'   => 'Komponen belum terperbarui, silahkan coba kembali',
+        'success' => 'Komponen telah berhasil di perbarui.'
     ),
 
     'delete' => array(
-        'confirm'   => 'Are you sure you wish to delete this component?',
-        'error'   => 'There was an issue deleting the component. Please try again.',
-        'success' => 'The component was deleted successfully.'
+        'confirm'   => 'Apakah Anda yakin untuk menghapus komponen ini?',
+        'error'   => 'Terdapat kesalahan pada saat penghapusan komponen ini. Silahkan coba kembali.',
+        'success' => 'Komponen telah berhasil dihapus.'
     ),
 
      'checkout' => array(
-        'error'   		=> 'Component was not checked out, please try again',
-        'success' 		=> 'Component checked out successfully.',
-        'user_does_not_exist' => 'That user is invalid. Please try again.',
-        'unavailable'      => 'Not enough components remaining: :remaining remaining, :requested requested ',
+        'error'   		=> 'Komponen belum tertanda keluar, silahkan mencoba lagi',
+        'success' 		=> 'Komponen telah sukses tertanda keluar.',
+        'user_does_not_exist' => 'Pengguna tidak terdaftar. Silahkan coba kembali.',
+        'unavailable'      => 'Tidak ada sisa komponen: :sisa sisa, :diminta diminta ',
     ),
 
     'checkin' => array(
-        'error'   		=> 'Component was not checked in, please try again',
-        'success' 		=> 'Component checked in successfully.',
-        'user_does_not_exist' => 'That user is invalid. Please try again.'
+        'error'   		=> 'Komponen belum tertanda masuk, silahkan mencoba lagi',
+        'success' 		=> 'Komponen telah sukses tertanda masuk.',
+        'user_does_not_exist' => 'Pengguna tidak terdaftar. Silahkan coba kembali.'
     )
 
 

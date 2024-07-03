@@ -1,20 +1,20 @@
 <?php
 
 return [
-    'does_not_exist' => 'Company does not exist.',
+    'does_not_exist' => 'Perusahaan tidak ada.',
     'deleted'        => 'Deleted company',
-    'assoc_users'    => 'This company is currently associated with at least one model and cannot be deleted. Please update your models to no longer reference this company and try again. ',
+    'assoc_users'    => 'Perusahaan saat ini dikaitkan dengan setidaknya satu model dan tidak dapat dihapus. Perbarui model anda yang tidak ada referensi dari perusahaan ini dan coba lagi. ',
     'create' => [
-        'error'   => 'Company was not created, please try again.',
-        'success' => 'Company created successfully.',
+        'error'   => 'Perusahaan belum terbuat, silahkan coba kembali.',
+        'success' => 'Perusahaan telah berhasil dibuat.',
     ],
     'update' => [
-        'error'   => 'Company was not updated, please try again',
-        'success' => 'Company updated successfully.',
+        'error'   => 'Perusahaan belum terperbaharui, silahkan coba kembali',
+        'success' => 'Perusahaan telah berhasil di perbarui.',
     ],
     'delete' => [
-        'confirm' => 'Are you sure you wish to delete this company?',
-        'error'   => 'There was an issue deleting the company. Please try again.',
-        'success' => 'The Company was deleted successfully.',
+        'confirm' => 'Apakah Anda yakin untuk menghapus perusahaan ini?',
+        'error'   => 'Terdapat kesalahan pada saat penghapusan perusahaan ini. Silahkan coba kembali.',
+        'success' => 'Perusahaan telah berhasil dihapus.',
     ],
 ];

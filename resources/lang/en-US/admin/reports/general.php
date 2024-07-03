@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'info'   => 'Select the options you want for your asset report.',
+    'info'   => 'Pilih opsi yang Anda inginkan untuk laporan aset Anda.',
     'deleted_user' => 'Deleted user',
     'send_reminder' => 'Send reminder',
     'reminder_sent' => 'Reminder sent',

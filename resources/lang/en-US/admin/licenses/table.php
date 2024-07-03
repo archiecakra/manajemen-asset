@@ -2,17 +2,17 @@
 
 return array(
 
-    'assigned_to'   	=> 'Assigned To',
-    'checkout'   		=> 'In/Out',
+    'assigned_to'   	=> 'Diberikan kepada',
+    'checkout'   		=> 'Masuk/Keluar',
     'deleted_at'        => 'Deleted at',
     'id'      			=> 'ID',
-    'license_email'   	=> 'License Email',
-    'license_name'   	=> 'Licensed To',
-    'purchase_date'   	=> 'Purchase Date',
-    'purchased'   		=> 'Purchased',
-    'seats'   			=> 'Seats',
-    'hardware'   		=> 'Hardware',
+    'license_email'   	=> 'Email Lisensi',
+    'license_name'   	=> 'Dilisensikan kepada',
+    'purchase_date'   	=> 'Tanggal pembelian',
+    'purchased'   		=> 'Dibeli',
+    'seats'   			=> 'Kapasitas',
+    'hardware'   		=> 'Perangkat Keras',
     'serial'   			=> 'Serial',
-    'title'      		=> 'License',
+    'title'      		=> 'Lisensi',
 
 );

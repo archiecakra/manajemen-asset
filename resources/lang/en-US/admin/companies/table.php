@@ -1,11 +1,11 @@
 <?php
 return array(
-    'companies' => 'Companies',
-    'create'    => 'Create Company',
+    'companies' => 'Perusahaan',
+    'create'    => 'Membuat perusahaan',
     'email'     => 'Company Email',
-    'title'     => 'Company',
+    'title'     => 'Perusahaan',
     'phone'     => 'Company Phone',
-    'update'    => 'Update Company',
-    'name'      => 'Company Name',
+    'update'    => 'Perbarui Perusahaan',
+    'name'      => 'Nama Perusahaan',
     'id'        => 'ID',
 );

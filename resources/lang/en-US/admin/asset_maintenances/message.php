@@ -1,21 +1,21 @@
 <?php
 
     return [
-        'not_found'                    => 'Asset Maintenance you were looking for was not found!',
+        'not_found'                    => 'Perawatan aset yang anda cari tidak di temukan!',
         'delete'                       => [
-            'confirm' => 'Are you sure you wish to delete this asset maintenance?',
-            'error'   => 'There was an issue deleting the asset maintenance. Please try again.',
-            'success' => 'The asset maintenance was deleted successfully.',
+            'confirm' => 'Apakah anda yakin akan menghapus perawatan aset ini?',
+            'error'   => 'Terdapat masalah ketika menghapus perawatan aset. Mohon coba kembali.',
+            'success' => 'Perawatan aset telah sukses terhapus.',
         ],
         'create'                       => [
-            'error'   => 'Asset Maintenance was not created, please try again.',
-            'success' => 'Asset Maintenance created successfully.',
+            'error'   => 'Perawatan aset gagal di buat, mohon ulangi kembali.',
+            'success' => 'Perawatan aset telah sukses di buat.',
         ],
         'edit'                       => [
-            'error'   => 'Asset Maintenance was not edited, please try again.',
-            'success' => 'Asset Maintenance edited successfully.',
+            'error'   => 'Pemeliharaan Aset tidak diedit, coba lagi.',
+            'success' => 'Pemeliharaan Aset berhasil diedit.',
         ],
-        'asset_maintenance_incomplete' => 'Not Completed Yet',
-        'warranty'                     => 'Warranty',
-        'not_warranty'                 => 'Not Warranty',
+        'asset_maintenance_incomplete' => 'Belum selesai',
+        'warranty'                     => 'Garansi',
+        'not_warranty'                 => 'Tidak bergaransi',
     ];

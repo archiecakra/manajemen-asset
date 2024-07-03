@@ -1,11 +1,11 @@
 <?php
 
 return array(
-    'checkout'                          => 'Checkout Consumable to User',
-    'consumable_name'                   => 'Consumable Name',
-    'create'                            => 'Create Consumable',
-    'item_no'                           => 'Item No.',
-    'remaining' 			            => 'Remaining',
+    'checkout'                          => 'Periksa barang habis pakai ke Pengguna',
+    'consumable_name'                   => 'Nama Barang Habis Pakai',
+    'create'                            => 'Membuat Barang Habis Pakai',
+    'item_no'                           => 'Nomor Barang',
+    'remaining' 			            => 'Sisa',
     'total' 			                => 'Total',
-    'update'                            => 'Update Consumable',
+    'update'                            => 'Memperbarui Barang Habis Pakai',
 );

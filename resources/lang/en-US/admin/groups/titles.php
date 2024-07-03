@@ -1,16 +1,16 @@
 <?php
 
 return [
-    'about_groups_title'            => 'About Groups',
-    'about_groups'                  => 'Groups are used to generalize user permissions.',
-    'group_management' 	 	=> 'Group Management',
-    'create' 	 	 	    => 'Create New Group',
-    'update' 	 		        => 'Edit Group',
-    'group_name' 	 		=> 'Group Name',
-    'group_admin' 	 		=> 'Group Admin',
-    'allow' 	 			=> 'Allow',
-    'deny' 	 				=> 'Deny',
-    'permission'            => 'Permission',
-    'grant'                 => 'Grant',
-    'no_permissions'        => 'This group has no permissions.'
+    'about_groups_title'            => 'Tentang Grup',
+    'about_groups'                  => 'Grup digunakan untuk menyamaratakan perizinan pengguna.',
+    'group_management' 	 	=> 'Manajemen Kelompok',
+    'create' 	 	 	    => 'Buat Grup Baru',
+    'update' 	 		        => 'Sunting Grup',
+    'group_name' 	 		=> 'Nama Kelompok',
+    'group_admin' 	 		=> 'Admin Kelompok',
+    'allow' 	 			=> 'Izin',
+    'deny' 	 				=> 'Tolak',
+    'permission'            => 'Hak akses',
+    'grant'                 => 'Izinkan',
+    'no_permissions'        => 'Grup ini tidak memiliki izin.'
 ];

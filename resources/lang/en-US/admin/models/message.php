@@ -3,45 +3,45 @@
 return array(
 
     'deleted' => 'Deleted asset model',
-    'does_not_exist' => 'Model does not exist.',
+    'does_not_exist' => 'Model tidak ada.',
     'no_association' => 'WARNING! The asset model for this item is invalid or missing!',
-    'no_association_fix' => 'This will break things in weird and horrible ways. Edit this asset now to assign it a model.',
-    'assoc_users'	 => 'This model is currently associated with one or more assets and cannot be deleted. Please delete the assets, and then try deleting again. ',
+    'no_association_fix' => 'Ini akan merusak banyak hal dengan cara yang aneh dan mengerikan. Edit aset ini sekarang untuk menetapkannya sebagai model.',
+    'assoc_users'	 => 'Saat ini model tersebut terhubung dengan 1 atau lebih dengan aset dan tidak dapat di hapus. Silahkan hapus aset terlebih dahulu, kemudian coba hapus kembali. ',
 
 
     'create' => array(
-        'error'   => 'Model was not created, please try again.',
-        'success' => 'Model created successfully.',
-        'duplicate_set' => 'An asset model with that name, manufacturer and model number already exists.',
+        'error'   => 'Model gagal di buat, silahkan coba kembali.',
+        'success' => 'Sukses mebuat model.',
+        'duplicate_set' => 'Model aset dengan nomor nama, produsen dan model yang sama sudah ada.',
     ),
 
     'update' => array(
-        'error'   => 'Model was not updated, please try again',
-        'success' => 'Model updated successfully.',
+        'error'   => 'Model gagal diperbarui, silahkan coba kembali',
+        'success' => 'Sukses memperbarui Model.',
     ),
 
     'delete' => array(
-        'confirm'   => 'Are you sure you wish to delete this asset model?',
-        'error'   => 'There was an issue deleting the model. Please try again.',
-        'success' => 'The model was deleted successfully.'
+        'confirm'   => 'Anda yakin untuk menghapus model aset ini?',
+        'error'   => 'Terdapat kesalahan pada saat penghapusan model. Silahkan coba kembali.',
+        'success' => 'Model sukses terhapus.'
     ),
 
     'restore' => array(
-        'error'   		=> 'Model was not restored, please try again',
-        'success' 		=> 'Model restored successfully.'
+        'error'   		=> 'Modal gagal di pulihkan, silahkan coba kembali',
+        'success' 		=> 'Sukses memulihkan model.'
     ),
 
     'bulkedit' => array(
-        'error'   		=> 'No fields were changed, so nothing was updated.',
-        'success' 		=> 'Model successfully updated. |:model_count models successfully updated.',
+        'error'   		=> 'Tidak ada bidang yang berubah, jadi tidak ada yang diperbarui.',
+        'success' 		=> 'Model berhasil diperbarui. |:model_count model berhasil diperbarui.',
         'warn'          => 'You are about to update the properties of the following model:|You are about to edit the properties of the following :model_count models:',
 
     ),
 
     'bulkdelete' => array(
-        'error'   		    => 'No models were selected, so nothing was deleted.',
-        'success' 		    => 'Model deleted!|:success_count models deleted!',
-        'success_partial' 	=> ':success_count model(s) were deleted, however :fail_count were unable to be deleted because they still have assets associated with them.'
+        'error'   		    => 'Tidak ada model yang dipilih, jadi tidak ada yang dihapus.',
+        'success' 		    => 'Model dihapus!|:success_count model dihapus!',
+        'success_partial' 	=> ':success_count model telah dihapus, tetapi :fail_count tidak dapat dihapus karena masih memiliki aset yang terkait dengannya.'
     ),
 
 );

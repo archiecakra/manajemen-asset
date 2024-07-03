@@ -2,37 +2,37 @@
 
 return array(
 
-    'does_not_exist' => 'The accessory [:id] does not exist.',
+    'does_not_exist' => 'Aksesori [:id] tidak ada.',
     'not_found' => 'That accessory was not found.',
-    'assoc_users'	 => 'This accessory currently has :count items checked out to users. Please check in the accessories and and try again. ',
+    'assoc_users'	 => 'Aksesori ini saat ini memiliki: count item yang dikeluarkan ke pengguna. Silakan periksa di aksesoris dan dan coba lagi. . Silakan periksa di aksesoris dan dan coba lagi. ',
 
     'create' => array(
-        'error'   => 'The accessory was not created, please try again.',
-        'success' => 'The accessory was successfully created.'
+        'error'   => 'Aksesori gagal di buat, mohon ulangi kembali.',
+        'success' => 'Aksesori sukses di buat.'
     ),
 
     'update' => array(
-        'error'   => 'The accessory was not updated, please try again',
-        'success' => 'The accessory was updated successfully.'
+        'error'   => 'Aksesori gagal terbaharui, mohon ulangi kembali',
+        'success' => 'Aksesori sukses terbaharui.'
     ),
 
     'delete' => array(
-        'confirm'   => 'Are you sure you wish to delete this accessory?',
-        'error'   => 'There was an issue deleting the accessory. Please try again.',
-        'success' => 'The accessory was deleted successfully.'
+        'confirm'   => 'Apakah anda yakin menghapus aksesori ini?',
+        'error'   => 'Terdapat kesalahan pada saat penghapusan aksesori ini. Silahkan coba kembali.',
+        'success' => 'Aksesori sukses terhapus.'
     ),
 
      'checkout' => array(
-        'error'   		=> 'Accessory was not checked out, please try again',
-        'success' 		=> 'Accessory checked out successfully.',
+        'error'   		=> 'Aksesori ini belum dikeluarkan, silahkan coba kembali',
+        'success' 		=> 'Aksesori telah berhasil dikeluarkan.',
         'unavailable'   => 'Accessory is not available for checkout. Check quantity available',
-        'user_does_not_exist' => 'That user is invalid. Please try again.'
+        'user_does_not_exist' => 'Terdapat kesalahan pada user ini. Silahkan coba kembali.'
     ),
 
     'checkin' => array(
-        'error'   		=> 'Accessory was not checked in, please try again',
-        'success' 		=> 'Accessory checked in successfully.',
-        'user_does_not_exist' => 'That user is invalid. Please try again.'
+        'error'   		=> 'Aksesoris belum masuk, silahkan coba kembali',
+        'success' 		=> 'Aksesoris telah berhasil dimasukkan.',
+        'user_does_not_exist' => 'Terdapat kesalahan pada user ini. Silahkan coba kembali.'
     )
 
 
